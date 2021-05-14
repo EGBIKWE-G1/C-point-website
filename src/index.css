@@ -1,0 +1,59 @@
+html {
+  line-height: 1;
+}
+html,   
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+html,
+body,
+#root,
+.App,
+.fullHeight {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+#clearfix {
+  overflow: auto;
+}
+
+.get-started-btn {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7cacde;
+  box-shadow: 1px 1px 1px #bee2f9;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(180deg, #43ddf7 0%, #20b8eb 100%);
+  background: linear-gradient(180deg, #43ddf7 0%, #20b8eb 100%);
+}
+.get-started-btn:hover {
+  color: #ffffff !important;
+  background: #468ccf;
+  background: linear-gradient(to top, #468ccf, #63b8ee);
+}
